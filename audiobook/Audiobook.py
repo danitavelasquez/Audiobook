@@ -10,7 +10,7 @@ pages = len(pdfReader.pages)
 print("Total pages:", pages)
 
 # Page
-page = pdfReader.pages[18]
+page = pdfReader.pages[4067]
 text = page.extract_text()
 
 # Speak
